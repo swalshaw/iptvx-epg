@@ -40,7 +40,7 @@ jobs:
         run: touch public/.nojekyll
 
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload EPG to GitHub Pages
         uses: actions/upload-pages-artifact@v4
